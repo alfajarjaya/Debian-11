@@ -1,0 +1,26 @@
+:root {
+    --bg-nav: #dcdcdc;
+    --bg-body: #000000;
+    --bg-transparent: transparent;
+    --border-bottom: 1px solid #232323;
+}
+
+.bg-body {
+    background-color: var(--bg-body);
+}
+
+.bg-nav {
+    background: linear-gradient(to bottom, var(--bg-nav), var(--bg-transparent), var(--bg-nav));
+}
+
+.border-bottom {
+    border-bottom: var(--border-bottom);
+}
+
+.cursor-pointer {
+    cursor: pointer;
+}
+
+.img {
+    width: 50%;
+}
